@@ -21,7 +21,7 @@ const Navbar = () => {
                     <li><img className='h-4 pl-1' src={vscode_icon} alt="vscode" /></li>
                 </ol>
                 <div className='border flex items-center border-gray-700 px-2 sm:px-8 rounded-md'><img className='h-5 px-1' src={search} alt="" /> Shubham - Visual Studio Code</div>
-                <ol className='flex gap-2 sm:pr-4 items-center'>
+                <ol className='flex gap-1 sm:gap-2 sm:pr-4 items-center'>
                     <li className='h-3 w-3 rounded-lg bg-[#FFBD44] bg'></li>
                     <li className='h-3 w-3 rounded-lg bg-[#00CA4E]'></li>
                     <li className='h-3 w-3 rounded-lg bg-[#FF605C]'></li>

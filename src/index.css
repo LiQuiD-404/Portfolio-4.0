@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,6 +7,45 @@
 
 body {
   font-family: 'Source Sans 3', sans-serif;
+  overflow: hidden;
+}
+
+.codefont{
+  font-family: 'JetBrains Mono', monospace;
+
+}
+
+@font-face {
+  font-family: GillRoy_Medium;
+  src: url(../src/assets/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: GillRoy_Light;
+  src: url(../src/assets/Gilroy-Light.otf);
+}
+
+@font-face {
+  font-family: GillRoy_SemiBold;
+  src: url(../src/assets/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Mazius;
+  src: url(../src/assets/Mazius-Extraitalic.otf);
+}
+
+.gillroy_medium{
+  font-family: GillRoy_Medium;
+}
+.gillroy_light{
+  font-family: GillRoy_Light;
+}
+.gillroy_semibold{
+  font-family: GillRoy_SemiBold;
+}
+.mazius{
+  font-family: Mazius;
 }
 
 .no-scrollbar::-webkit-scrollbar {
