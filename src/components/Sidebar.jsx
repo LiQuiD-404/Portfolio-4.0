@@ -10,6 +10,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { setActive } from '../activeSlice'
 
 const Sidebar = () => {
+  const state = useSelector((state) => state.active.active) ||  'file' 
   const dispatch = useDispatch()
   const [activeTab, setActiveTab] = useState('file'); 
   const changeActive = (tab) => {
@@ -18,7 +19,7 @@ const Sidebar = () => {
 
   };
 
-  const getOpacity = (tab) => (activeTab === tab ? 'opacity-100 border-l-2 border-indigo-500 bg-[#202429]' : 'opacity-60');
+  const getOpacity = (tab) => (state === tab ? 'opacity-100 border-l-2 border-indigo-500 bg-[#202429]' : 'opacity-60');
 
   return (
     <div className='w-[4em] bg-[#24292e] '>
