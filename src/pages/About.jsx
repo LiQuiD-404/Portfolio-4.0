@@ -26,7 +26,7 @@ const About = () => {
                   <li>Reviewed code and pull requests (PRs) submitted by mentees.</li>
                   <li>Guided mentees in getting familiar with technologies like git and GitHub.</li>
                   <li>Collaborated with other mentors to ensure the success of the program.</li>
-                  
+
                 </ol>
               </div>
 
@@ -35,18 +35,45 @@ const About = () => {
 
             <div className="container1 h-fit codefont w-fit sm:w-1/2 border border-indigo-500 bg-[#1a1e22] rounded-lg p-4 mb-3 mt-3">
               <span className='text-indigo-500'>GeeksforGeeks</span>
-              
+
               <div className='text-sm px-4'>
                 <ol className='list-disc'>
                   <li>Brought in 1600+ participants for Solve for India Hackathon organized by Google Cloud X GeeksForGeeks.</li>
                   <li>Created awareness campaigns about GeeksforGeeks on campus.</li>
                   <li>Organized coding events, workshops, and seminars on my campus.</li>
                   <li>Content Creation over different social media platforms like Quora, LinkedIn.</li>
-                  
+
                 </ol>
               </div>
             </div>
           </div>
+
+          <div className='flex flex-row-reverse pt-6 flex-wrap items-center justify-around mb-10'>
+            <div className="container1 codefont h-fit sm:h-72 border   w-72 border-indigo-500 bg-[#1a1e22] rounded-lg p-4 ">
+              <span className='text-indigo-500'> //Adding soon</span>
+              <div className='text-sm px-4'>
+                <ol className='list-disc'>
+
+                </ol>
+              </div>
+
+
+            </div>
+
+            <div className="container1 h-fit codefont w-fit sm:w-1/2 border border-indigo-500 bg-[#1a1e22] rounded-lg p-4 mb-3 mt-3">
+              <span className='text-indigo-500'>GirlScript Summer of Code '22</span>
+
+              <div className='text-sm px-4'>
+                <ol className='list-disc'>
+                  <li>Contributed to various open-source projects using technologies like Web Development, Java, and Python.</li>
+                  <li>Secured the 5th position on the leaderboard for the most number of valid contributions.</li>
+                  <li>Worked on 88 issues and made more than 76 contributions in the span of three months.</li>
+                 
+                </ol>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
       &#125;
