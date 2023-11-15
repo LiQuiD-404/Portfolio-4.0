@@ -3,9 +3,9 @@ import '../index.css';
 
 const Contact = () => {
   return (
-    <div className='maincontent text-white p-8'>
+    <div className='maincontent no-scrollbar h-screen overflow-y-scroll text-white p-8'>
       <div className='flex flex-wrap'>
-        <div className=' heading lg:border-r-2 border-indigo-500 codefont text-xl w-full lg:w-1/2 h-[50vh] sm:h-[80vh]'>
+        <div className=' heading lg:border-r-2 border-indigo-500 codefont text-xl w-full lg:w-1/2 h-[65vh] sm:h-[80vh]'>
           Reach Out Via Socials
           <div className='flex pt-5 text-lg'>
             <div className=''>
@@ -40,6 +40,9 @@ const Contact = () => {
         </div>
         <div className='heading pl-5 codefont text-xl  w-full lg:w-1/2 h-[50vh] sm:h-[80vh]'>
           Or Fill Out This Form
+          <div className='text-sm pt-8'>
+            // Adding soon
+          </div>
         </div>
       </div>
     </div>
