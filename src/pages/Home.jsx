@@ -1,6 +1,6 @@
 import React from 'react'
 import '../index.css'
-import pf from '../assets/pf.jpg'
+import scribble from '../assets/scribble.png'
 
 const Test1 = () => {
   return (
@@ -12,8 +12,9 @@ const Test1 = () => {
         <div className='heading mazius text-[10vw] pl-16 text-indigo-500'>
           Visual
         </div>
-        <div className='heading gillroy_medium text-[12vw]  pl-[3vw] text-gray-100'>
+        <div className='relative heading gillroy_medium text-[12vw]  pl-[3vw] text-gray-100'>
           Designer
+        
         </div>
       </div>
 
