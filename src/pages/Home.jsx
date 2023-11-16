@@ -1,10 +1,9 @@
 import React from 'react'
 import '../index.css'
-import scribble from '../assets/scribble.png'
 
 const Test1 = () => {
   return (
-    <div className=' h-screen no-scrollbar pt-6 leading-[15vw]'>
+    <div className='maincontent no-scrollbar pb-24 h-screen overflow-y-scroll pt-6 leading-[15vw]'>
       <div className='heading text-white gillroy_medium text-[14vw] pl-[3vw]'>
         Creative
       </div>

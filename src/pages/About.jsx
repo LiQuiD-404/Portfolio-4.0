@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='maincontent pb-32 no-scrollbar h-screen overflow-y-scroll codefont text-xl text-white p-8'>
       <span className='text-indigo-500 text-xl'>.about</span> &#123; <br />
-      <div className='space-y-6'>
+      <div className='space-y-6 z-10'>
         <div className="intro text-lg pl-12 text-gray-400">intro:
           <span className='pl-3 text-white'>
             <span className='border-b-2 border-indigo-500'>Pre-final</span> year CSE student at <span className='border-b-2 border-indigo-500'>Vellore Institute of Technology</span> , proficient in C, C++, Java, and Python. Passionate about creating user-friendly web apps and skilled in HTML, CSS, and JavaScript.

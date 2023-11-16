@@ -6,7 +6,7 @@ import reflex from '../assets/reflex.jpg'
 const Test1 = () => {
   return (
     <div>
-      <div className='maincontent no-scrollbar pb-12 h-screen overflow-y-scroll text-white p-4'>
+      <div className='maincontent no-scrollbar pb-24 h-screen overflow-y-scroll text-white p-4'>
         <div className='flex flex-row-reverse pt-6 flex-wrap items-center justify-around mb-10'>
         <div className="container1 codefont h-48 sm:h-72 border w-full sm:w-1/3 border-indigo-500 rounded-lg p-4" style={{ backgroundImage: `url(${critique})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           </div>
