@@ -1,5 +1,6 @@
 import React from 'react'
 import '../index.css'
+import resume from '../assets/resume.pdf'
 
 const Test1 = () => {
   return (
@@ -18,8 +19,8 @@ const Test1 = () => {
       </div>
 
       <div className='flex pl-[5vw] gap-4 pt-8'>
-        <button className='ease-in duration-200 bg-indigo-500 hover:scale-95 scale-90 sm:scale-100 flex items-center justify-center px-5 rounded-md text-sm sm:text-[1rem]'>Download Resume</button>
-        <button className='ease-in duration-200 scale-90 sm:scale-100  hover:scale-95 bg-gray-100 h-14 flex items-center justify-center px-5 rounded-md text-sm sm:text-[1rem]'>Get in Touch</button>
+        <button className='ease-in duration-200 bg-indigo-500 hover:scale-95 scale-90 sm:scale-100 flex items-center justify-center px-5 rounded-md text-sm sm:text-[1rem]'><a href={resume} download={resume}> Download Resume </a></button>
+        <button className='ease-in duration-200 scale-90 sm:scale-100  hover:scale-95 bg-gray-100 h-14 flex items-center justify-center px-5 rounded-md text-sm sm:text-[1rem]'><a href="https://api.whatsapp.com/send?phone=+917044771222&text=Hey%20Shubham!" target='_blank'> Get in Touch </a></button>
       </div>
 
     </div>

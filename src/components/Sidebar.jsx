@@ -23,7 +23,7 @@ const Sidebar = () => {
 
   return (
     <div className='w-[4em] bg-[#24292e] '>
-      <nav className='flex flex-col items-center justify-between h-screen pb-16'>
+      <nav className='flex flex-col items-center justify-between h-screen pb-14'>
         <ol className='flex-col items-center'>
           <li onClick={() => changeActive('file')} className={`py-3 cursor-pointer ${getOpacity('file')} hover:bg-[#2e343b]`}>
             <img className='h-7 w-16' src={file} alt="" />
